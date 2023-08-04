@@ -1,0 +1,61 @@
+.puppy {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+
+}
+
+.cstm {
+    border-radius: 30px;
+}
+
+.cstmimg {
+    border-radius: 30px 30px 0 0;
+}
+
+.badgecstm {
+    width: 100%;
+    cursor: pointer;
+}
+
+.badgecstm:hover {
+    background-color: rgb(255, 92, 92) !important;
+}
+
+.Footertext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: 50px;
+}
+
+.h2custom {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin: 0;
+}
+
+
+@media (max-width: 800px) {
+    .puppy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cstm {
+        margin-bottom: 40px;
+    }
+
+    .Footertext {
+        text-align: center;
+    }
+
+    .h2custom {
+        font-size: 12px;
+    }
+
+
+}
